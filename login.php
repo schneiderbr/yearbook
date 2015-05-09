@@ -33,7 +33,7 @@
 		$conexao = null;
 		
 		if (count($resultados)!=1){	
-                    header("Location: index.php?erro=Usuário ou senha invalidos");
+                    header("Location: index.php?erro=Usuário ou senha invalidos 2");
                     die();
 		}   
 		else{ 
