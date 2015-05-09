@@ -1,0 +1,37 @@
+G:\github\yearbook\yearbook [master]> git log
+commit 93034ed939886ed9d81ce492fd0d71c3a4623378
+Author: Jonathan <j.schneider@ecommet.com.br>
+Date:   Sat May 9 18:14:41 2015 -0300
+
+    script criacao de tabelas
+
+commit 37b3462a95dc802aa4ef9fff37cf256650ecba54
+Author: Jonathan <j.schneider@ecommet.com.br>
+Date:   Sat May 9 17:05:29 2015 -0300
+
+    Nova foto
+
+commit a4ab068ba943b47841371a63f018b2e4fd322357
+Author: Jonathan <j.schneider@ecommet.com.br>
+Date:   Sat May 9 17:00:49 2015 -0300
+
+    Nova foto
+
+commit 7ff7e0954313d76ede01e04b72407897bcbb6239
+Author: Jonathan <j.schneider@ecommet.com.br>
+Date:   Sat May 9 16:43:42 2015 -0300
+
+    retirado verificacao de origem
+
+commit 7ca1aab8a8707ae48f781cac78d4d64176e505e3
+Author: Jonathan <j.schneider@ecommet.com.br>
+Date:   Sat May 9 16:14:07 2015 -0300
+
+    credenciais banco
+
+commit 7c357acc1c886e7fa8e2084d499c9795c6754985
+Author: Jonathan <j.schneider@ecommet.com.br>
+Date:   Sat May 9 15:58:17 2015 -0300
+
+    first commit
+G:\github\yearbook\yearbook [master]>
