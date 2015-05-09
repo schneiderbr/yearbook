@@ -11,13 +11,7 @@
                 echo "origem:".$origem;
                 echo "<br>origemGet:".$origemGet;
                 
-                if(!(($origem=='index.php') || ($origemGet=='index.php')) ){
-                   
-                    
-                    echo'Aqui não truta, tambem sou do movimento...';
-                    die();
-                }
-                
+                                
                 if(!(isset($_POST["senha"]) && isset($_POST["login"]))){
                      header("Location: index.php?erro=Usuário ou senha invalidos");
                     die();
