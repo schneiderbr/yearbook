@@ -1,0 +1,299 @@
+@charset "utf-8";
+
+
+/* <zera>*/
+a {
+	text-decoration: none;
+}
+
+li{
+	list-style-type: none;
+}
+
+body {
+	font-family: "Tahoma", sans-serif; 
+	margin: 0px;
+}
+
+h1{
+	font-weight: 400;
+	font-family: "HelveticaNeue-Regular","Helvetica Neue",Helvetica,arial,sans-serif;
+}
+
+/*</zera>*/
+
+/* <globais>*/
+header {
+	width: 100%;
+	text-align: center;
+	background: url("../image/back_blue_pucminas.png") no-repeat center top;
+	background-color: rgb(15,92,155);
+	padding-bottom: 48px;
+}
+
+#line-header{
+	width: 100%;
+	background-color: white;
+	text-align: center;
+	overflow: hidden;
+	box-shadow: 0px 9px 19px 2px rgba(10,10,36,0.5);
+}
+
+#cont-header{
+	width:90%;
+	margin: auto;		
+}
+
+#cont-header h1{
+	color: rgb(15,92,155);
+	text-transform: capitalize;
+	line-height: 47px;
+}
+
+#logo{
+	float: left;
+}
+
+main {
+	margin: 0 auto;
+	width: 90%;
+	text-align: left;
+}
+
+.sombra-leve{
+	box-shadow: 0px 0px 7px 0px rgba(10,10,36,0.5);
+}
+
+footer {
+	background: url("../image/back_blue_pucminas.png") no-repeat center top;
+	background-color: rgb(15,92,155);
+	padding: 20px 0px 0px 0px;
+	bottom: 0px;
+	width: 100%;
+}
+
+footer>div{
+	background-color: white;
+	text-align: center;
+	color: rgb(15,92,155);
+	padding: 10px 0px;
+}
+
+footer>div>small{
+	display:inline-block;
+	width: 90%;
+	text-align: center;
+}
+
+input, select, textarea {
+    padding: 5px;
+}
+
+input[type="submit"], input[type="reset"],input[type="button"]  {
+    padding: 6px;
+    border: none;
+}
+input[type="submit"] {
+   
+    background-color: rgb(13, 76, 170);
+    color: white;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(7, 44, 99);
+    cursor: pointer;
+}
+input[type="reset"]:hover,input[type="button"]:hover {
+    background-color: #BEBDBD;
+    cursor: pointer;
+}
+
+.cont-bt input {
+    width: 34% !important;
+}
+.cont-bt{
+    padding-left: 30%;
+}
+div.acoes-header {
+    text-align: right;
+    padding-bottom: 3px;
+    padding-right: 3px;
+}
+.acoes-header a, .acoes-header span {
+    font-size: 11px;
+    color: white;
+}
+div.msg-erro {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: rgba(4, 87, 194, 0.9);
+    color: white;
+    padding: 16px;
+    box-shadow: -5px 7px 13px #000;
+}
+/*</globais>*/
+
+/* <listaAlunos> */
+
+main h1{
+	
+	color: rgb(15,92,155);
+	text-transform: capitalize;
+	border-bottom: 1px dotted #A4BBD3;
+	font-size: 26px;
+	padding-bottom: 20px;
+}
+
+.alunos-lista ul {
+	padding: 0;
+	text-align: center;
+}
+
+.alunos-lista ul li {
+	display: inline-block;
+	list-style-type: none;
+}
+
+.alunos-lista figure {
+	margin: 20px 20px;
+}
+
+.alunos-lista figcaption {
+	color: rgb(15,92,155);
+	padding: 15px 0;
+	font-size: 13px;
+}
+
+.alunos-lista figure:hover{
+	box-shadow: 0px 0px 44px 7px rgba(10,10,36,0.5);
+}
+.cont-busca input[type="text"] {
+    width: 300px;
+}
+.cont-busca{
+    text-align: right;
+}
+.cont-historico h4 {
+    color: rgb(15,92,155);  text-transform: capitalize;  border-bottom: 1px dotted #A4BBD3;  
+    font-size: 14px;  padding-bottom: 20px;
+}
+a.link-historico {
+    line-height: 71px;
+    display: block;
+    vertical-align: middle;
+    clear: both;
+    overflow: hidden;
+}
+.link-historico img {
+    height: 64px;
+    float: left;
+}
+.link-historico span {
+    display: block;
+    float: left;
+    padding-left: 5px;
+}
+div.cont-historico {
+    overflow: hidden;
+}
+
+/* </listaAlunos> */
+
+/*<aluno_detalhes>*/
+
+.alunos-detalhes .cont-detalhes{
+	width: 100%;
+	clear: both;
+	overflow: hidden;
+	margin-bottom: 10px;
+	padding: 5px;
+	/* border: 1px solid #ddd; */
+}
+
+.alunos-detalhes .aluno-dados{
+	width: 28%;
+	float: left;
+	padding-top: 50px;
+}
+
+.alunos-detalhes .aluno-nome{
+	font-size: 22px;
+	color: #666;
+	margin: 0;
+	padding: 0;
+}
+
+.alunos-detalhes .aluno-loca{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+	color: #999;
+}
+
+.alunos-detalhes .aluno-email{
+	padding: 2px 0 2px 24px;
+	background: url(../image/contact-icon.png) 0px 5px no-repeat;
+}
+
+.alunos-detalhes .aluno-bio{
+	width: 50%;
+	float: left;
+	/* margin-left: 5px; */
+	padding-top: 50px;
+}
+
+.alunos-detalhes .aluno-foto{
+	width: 21%;
+	height: 320px;
+	float: left;
+	text-align: right;
+	margin: 0px;
+}
+
+/*</aluno_detalhes>*/
+
+/* alunoForm*/
+.form-aluno label {
+    width: 30%;
+    display: block;
+    float: left;
+    text-align: right;
+    padding-right: 5px;
+    position: relative;
+}
+.form-aluno input, .form-aluno textarea, .form-aluno select {
+    width: 63%;
+    float: left;
+    position: relative;
+    margin-top:13px;
+    font-family:tahoma;
+}
+#form-aluno {
+    overflow: hidden;
+    max-width: 800px;
+    margin: auto;
+}
+.linha-form {
+    width: 100%;
+    position: relative;
+    float: none;
+    line-height: 52px;
+    overflow: hidden;
+    vertical-align: middle;
+}
+/* /alunoForm*/
+/* index */
+.alunos-home section {
+    width: 45%;
+    float: left;
+}
+main.alunos-home {
+    max-width: 800px;
+    padding-top: 50px;
+    overflow: hidden;
+}
+.home-lista li {
+    float: left;
+    margin: 3px;
+}
+/* /index*/
